@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <title>:: Regístro ::</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="d-flex flex-column min-vh-100 justify-content-center align-items-center">
+            <div class="col-sm-9 col-md-7 col-lg-5 p-4 mb-5 box-shadow-forms">
+                <form>
+                    <h1 class="text-center">Registrarse</h1>
+                    <div class="form-floating mb-3 mt-3">
+                        <input type="text" class="form-control custom-form shadow-none" id="registrarNombre" placeholder="correo@edu.com"
+                            required>
+                        <label for="registrarNombre">Nombre</label>
+                    </div>
+                    <div class="form-floating mb-3 mt-3">
+                        <input type="email" class="form-control custom-form shadow-none" id="registrarEmail" placeholder="correo@edu.com"
+                            required>
+                        <label for="registrarEmail">Correo electrónico</label>
+                    </div>
+                    <div class="form-floating mb-3 mt-3">
+                        <input type="password" class="form-control custom-form shadow-none" id="registrarContraseña" placeholder="********">
+                        <label for="registrarContraseña">Contraseña</label>
+                    </div>
+                    <div class="form-floating mb-3 mt-3">
+                        <input type="password" class="form-control custom-form shadow-none" id="confirmarContraseña" placeholder="********">
+                        <label for="confirmarContraseña">Confirma tu contraseña</label>
+                    </div>
+                    <div class="d-grid gap-2 mb-3">
+                        <button type="button" id="btnRegistro" class="btn btn-custom btn-primary btn-lg">Registrarse</button>
+                    </div>
+                    <div class="form-group text-center">
+                        <span class="text-left">¿Ya tienes una cuenta?</span>
+                        <a class="text-decoration-none" href="login.html">Iniciar sesión</a>
+                    </div>
+                </form>
+            </div>
+            <h2><span id="statusMessage2"></span></h2>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+
+</body>
+</html>
